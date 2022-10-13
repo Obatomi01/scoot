@@ -1,0 +1,64 @@
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  margin-bottom: 9.6rem;
+}
+
+.feature-img {
+  border-radius: 50%;
+  justify-self: flex-end;
+}
+
+/* .feature--image__container {
+  transform-origin: "center";
+  width: 10%;
+} */
+
+.feature--description {
+  width: 45%;
+
+  align-self: center;
+}
+
+.feature:nth-of-type(even) .feature--description {
+  order: 2;
+}
+
+.feature--icons {
+  position: absolute;
+}
+
+.circle {
+  position: absolute;
+  top: 0rem;
+  right: -170rem;
+  z-index: -1;
+}
+
+.feature:nth-of-type(even) .circle {
+  position: relative;
+  left: -95rem;
+}
+
+.left--downward__arrow {
+  position: absolute;
+  right: -140rem;
+  top: 30rem;
+
+  z-index: 1;
+  /* width: 100%; */
+}
+
+.last-left--downward__arrow {
+  position: absolute;
+  right: -174rem;
+  top: 8rem;
+}
+
+.right--downward__arrow {
+  position: relative;
+  left: -25rem;
+  top: -30rem;
+}

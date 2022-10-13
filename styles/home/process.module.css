@@ -1,0 +1,28 @@
+/************************/
+/* LINE UNDER THE ICONS */
+/************************/
+.line {
+  background-color: #e5ecf4;
+  width: 68%;
+  /* max-width: 120rem; */
+  height: 1rem;
+
+  position: absolute;
+  transform: translateY(4rem);
+}
+
+/************************/
+/* PROCESS CONTAINER */
+/************************/
+.process-container {
+  margin-block: 12.8rem;
+}
+
+.processes {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.process h4 {
+  margin-block: 2.4rem;
+}

@@ -1,5 +1,13 @@
+import Nav from "../nav";
+import PageHeader from "../pageHeader";
+
 const About = () => {
-  return <h1>This is the about page</h1>;
+  return (
+    <header>
+      <Nav />
+      <PageHeader pageStyle="about--page__header" pageTitle="About" />
+    </header>
+  );
 };
 
 export default About;

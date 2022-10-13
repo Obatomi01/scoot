@@ -1,9 +1,28 @@
+/* 
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  overflow-x: hidden;
+
+  color: #495567;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 
 a {
@@ -13,6 +32,124 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Space Mono", monospace;
+}
+
+h1 {
+  font-size: 5.6rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3 {
+  font-size: 4rem;
+  /* opacity: 0; */
+}
+
+.h3 {
+  position: relative;
+  left: -70rem;
+  /* opacity: 0; */
+}
+
+.img-animate {
+  /* opacity: 0; */
+}
+
+.feature--image__container {
+  /* transform-origin: "center"; */
+  /* width: 100%; */
+  transform: scale(0.1);
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+/* .logo {
+} */
+
+.container {
+  max-width: 120rem;
+  margin: auto;
+}
+
+.nav-container {
+  margin-block: 2.4rem;
+}
+
+.active--link__button {
+  color: #fcb72b;
+  /* border-bottom: 4px solid #fcb72b; */
+  display: flex;
+  flex-direction: column;
+}
+
+.active--link__button::after {
+  content: "";
+
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background: #fcb72b;
+  /* transition: width 0.5s ease, background-color 0.5s ease; */
+  animation: bordergrowth 2s;
+}
+
+@keyframes bordergrowth {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.line-svg {
+  min-width: none;
+  width: 10%;
+}
+
+/*******************/
+/* HEADER FOR DIFFERENT PAGES */
+/*******************/
+.page--header__container {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  /* padding-left: 16.8rem; */
+  padding-block: 6.4rem;
+}
+
+.about--page__header {
+  background-image: url("../assets/images/about-hero-desktop.jpg");
+}
+
+.careers--page__header {
+  background-image: url("../assets/images/careers-locations-hero-desktop.jpg");
+}
+
+.locations--page__header {
+  background-image: url("../assets/images/careers-locations-hero-desktop.jpg");
+}
+
+.about--page__header,
+.careers--page__header,
+.locations--page__header {
+  height: 20rem;
+  color: #f2f5f9;
+}
+
+.header-circles {
+  transform: translateX(85%);
 }
 
 @media (prefers-color-scheme: dark) {

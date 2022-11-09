@@ -1,0 +1,42 @@
+.jobs {
+  margin-block: 9.6rem;
+}
+
+.job {
+  display: flex;
+  justify-content: space-between;
+
+  margin-block: 1.2rem;
+  background-color: #e5ecf4;
+
+  padding: 3.2rem 4.8rem;
+}
+
+.apply--btn {
+  padding: 1.2rem 3.6rem;
+  background-color: #fcb72b;
+  color: #f2f5f9;
+}
+
+.apply--btn:disabled {
+  background-color: #939caa;
+
+  cursor: not-allowed;
+}
+
+/*******************************/
+/******* BELOW 500PX  ******/
+/*******************************/
+@media (max-width: 32em) {
+  .job {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 3.2rem;
+    text-align: center;
+  }
+
+  .apply--btn {
+    width: 70%;
+  }
+}

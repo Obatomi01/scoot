@@ -1,0 +1,51 @@
+.message--container {
+  display: flex;
+
+  justify-content: space-between;
+  margin-block: 9.6rem;
+}
+
+.message--content {
+  width: 50%;
+}
+
+.message--heading {
+  width: 30%;
+}
+
+.message-btn {
+  padding: 1.2rem 3.2rem;
+  align-self: center;
+  background-color: #fcb72b;
+  color: #f2f5f9;
+}
+
+/*******************************/
+/******* BELOW 900PX  ******/
+/*******************************/
+@media (max-width: 57em) {
+  .message--container {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .message--heading {
+    width: auto;
+    margin: auto;
+  }
+
+  .message--content {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/*******************************/
+/******* BELOW 500PX  ******/
+/*******************************/
+@media (max-width: 32em) {
+  .message--heading {
+    text-align: center;
+  }
+}

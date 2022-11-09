@@ -1,7 +1,13 @@
 import Head from "next/head";
 
-import Nav from "../nav";
+import HeaderNav from "../headerNav";
 import PageHeader from "../pageHeader";
+import SayHello from "./sayHello";
+import Footer from "../footer";
+import FooterNav from "../footerNav";
+import OurValues from "../ourValues";
+import Jobs from "./jobs";
+import Header from "../home/header";
 
 const Careers = () => {
   return (
@@ -9,8 +15,13 @@ const Careers = () => {
       <Head>
         <title>Scoot | Careers</title>
       </Head>
-      <Nav />
+      <Header />
       <PageHeader pageStyle="careers--page__header" pageTitle="Careers" />
+      <SayHello />
+      <OurValues text="Why join us?" />
+      <Jobs />
+      <Footer />
+      <FooterNav />
     </header>
   );
 };

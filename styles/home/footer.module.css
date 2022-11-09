@@ -1,0 +1,62 @@
+.footer-container {
+  padding: 9.6rem;
+  background-color: #939caa;
+  color: #f2f5f9;
+
+  background-image: url("../../assets/patterns/semi-circles.svg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position-x: 160%;
+  background-position-y: bottom;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-btns {
+  display: flex;
+  gap: 2.4rem;
+
+  align-self: center;
+}
+
+.footer-text {
+  width: 50%;
+}
+
+/* .footer-circles__container {
+  scale: 1.2;
+} */
+
+.footer-circles {
+  /* display: inline-block; */
+  /* width: 5000px; */
+  /* scale: 5; */
+}
+
+/*******************************/
+/******* BELOW 900PX  ******/
+/*******************************/
+@media (max-width: 57em) {
+  .footer-items {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .footer-text {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+/*******************************/
+/******* BELOW 500PX  ******/
+/*******************************/
+@media (max-width: 32em) {
+  .footer-text {
+    width: 100%;
+  }
+}

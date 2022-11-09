@@ -5,7 +5,7 @@ import WhiteCircle from "../assets/patterns/white-circles.svg";
 
 const PageHeader = (props) => {
   return (
-    <header className={` ${props.pageStyle}`}>
+    <header className={`${props.pageStyle}`}>
       <div className="page--header__container container">
         <h1>{props.pageTitle}</h1>
 

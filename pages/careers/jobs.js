@@ -60,6 +60,7 @@ const Jobs = () => {
         {jobsState.map((el, index) => {
           return (
             <Job
+              key={index}
               title={el.title}
               location={el.location}
               btnDisabled={el.disabled}

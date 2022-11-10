@@ -10,19 +10,16 @@ html,
 body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: "Lexend Deca", sans-serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+  max-width: 100%;
 
   color: #495567;
 }
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 p {

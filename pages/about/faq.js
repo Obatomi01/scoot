@@ -10,7 +10,7 @@ const Faq = (props) => {
     <li key={props.id}>
       <span
         className={`${styles.question} ${styles["question--heading"]}`}
-        onClick={props.onShowAnswer.bind(null, props.id)}
+        onClick={() => props.onShowAnswer.bind(null, props.id)}
       >
         <h5>{props.question}</h5>
         <a className={styles.icon}>

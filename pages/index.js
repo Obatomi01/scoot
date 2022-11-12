@@ -3,17 +3,17 @@ import { useEffect, useState } from "react";
 
 import Head from "next/head";
 
-import Header from "./home/header";
-import Processes from "./home/processes";
-import Features from "./home/features";
-import Footer from "./footer";
-import FooterNav from "./footerNav";
+import Header from "../components/home/header";
+import Processes from "../components/home/processes";
+import Features from "../components/home/features";
+import Footer from "../components/footer";
+import FooterNav from "../components/footerNav";
 
 // For mobile view
-import MobileNav from "./mobileNav";
-import MobileHeaderNav from "./mobileHeaderNav";
-import useMobile from "./useMobile";
-import HeaderContent from "./home/headerContent";
+// import MobileNav from "./mobileNav";
+// import MobileHeaderNav from "./mobileHeaderNav";
+// import useMobile from "../components/useMobile";
+import HeaderContent from "../components/home/headerContent";
 
 export default function Home() {
   // const [windowDimension, setWindowDimension] = useState(null);

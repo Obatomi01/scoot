@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-import HeaderNav from "../headerNav";
-import PageHeader from "../pageHeader";
-import SayHello from "./sayHello";
-import Footer from "../footer";
-import FooterNav from "../footerNav";
-import OurValues from "../ourValues";
-import Jobs from "./jobs";
-import Header from "../home/header";
+// import HeaderNav from "../headerNav";
+import PageHeader from "../../components/pageHeader";
+import SayHello from "../../components/careers/sayHello";
+import Footer from "../../components/footer";
+import FooterNav from "../../components/footerNav";
+import OurValues from "../../components/ourValues";
+import Jobs from "../../components/careers/jobs";
+import Header from "../../components/home/header";
 
 const Careers = () => {
   return (

@@ -5,6 +5,8 @@ import styles from "../../styles/about/faqs.module.css";
 import Chevron from "../../assets/icons/chevron.svg";
 import Close from "../../assets/icons/close.svg";
 
+import { HOWITWORKS } from "./faqs";
+
 const Faq = (props) => {
   return (
     <li key={props.id}>

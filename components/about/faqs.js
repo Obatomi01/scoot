@@ -51,12 +51,14 @@ const SAFEDRIVING = [
   },
 ];
 
-const Faqs = () => {
+export { HOWITWORKS, SAFEDRIVING };
+
+const Faqs = (props) => {
   return (
     <section className={`container ${styles.faqs}`}>
       <h3 className={styles.text}>FAQs</h3>
-      <QuestionSection questionArr={HOWITWORKS} heading="How it works" />
-      <QuestionSection questionArr={SAFEDRIVING} heading="Safe driving" />
+      <QuestionSection questionArr={props.firstArr} heading="How it works" />
+      <QuestionSection questionArr={props.secondArr} heading="Safe driving" />
     </section>
   );
 };

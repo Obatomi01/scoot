@@ -1,13 +1,13 @@
-import HeaderNav from "../headerNav";
-import PageHeader from "../pageHeader";
-import Map from "./map";
-import City from "./city";
-import Footer from "../footer";
-import FooterNav from "../footerNav";
-import Header from "../home/header";
+// import HeaderNav from "../headerNav";
+import PageHeader from "../../components/pageHeader";
+import Map from "../../components/location/map";
+import City from "../../components/location/city";
+import Footer from "../../components/footer";
+import FooterNav from "../../components/footerNav";
+import Header from "../../components/home/header";
 
-import useMobile from "../useMobile";
-import MobileMap from "./mobileMap";
+import useMobile from "../../components/useMobile";
+import MobileMap from "../../components/location/mobileMap";
 
 const Locations = () => {
   const isMobile = useMobile();

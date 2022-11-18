@@ -15,7 +15,7 @@ const Header = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
 
   useEffect(() => {
-    document.body.style.overflow = showMobileNav ? "hidden" : "unset";
+    document.body.style.overflowY = showMobileNav ? "hidden" : "unset";
     document.body.style.position = showMobileNav ? "fixed" : "";
   }, [showMobileNav]);
 

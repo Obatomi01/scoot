@@ -7,9 +7,7 @@ const Backdrop = (props) => {
           : "hide--backdrop__container"
       }`}
       onClick={props.onHideBackdrop}
-    >
-      {props.children}
-    </div>
+    ></div>
   );
 };
 

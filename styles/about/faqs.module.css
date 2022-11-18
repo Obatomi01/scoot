@@ -45,8 +45,16 @@
   display: inline-block;
 
   align-self: center;
+  transition: all 0.5s ease-out;
 }
 
+.rotate-up {
+  transform: rotate(180deg);
+}
+
+.rotate-down {
+  transform: rotate(0deg);
+}
 /*******************************/
 /******* BELOW 900PX  ******/
 /*******************************/

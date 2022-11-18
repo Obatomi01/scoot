@@ -1,5 +1,5 @@
 // header SECTION of the home page
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Image from "next/image";
 
@@ -13,6 +13,11 @@ import Backdrop from "../backdrop";
 
 const Header = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflow = showMobileNav ? "hidden" : "unset";
+    document.body.style.position = showMobileNav ? "fixed" : "";
+  }, [showMobileNav]);
 
   const showMobileNavHandler = () => {
     setShowMobileNav(!showMobileNav);
@@ -29,10 +34,14 @@ const Header = () => {
         onShowMobile={showMobileNav}
         onShowMobileNav={showMobileNavHandler}
       />
-      <Backdrop
-        onHideBackdrop={hideMobileNavHandler}
-        curMobileState={showMobileNav}
-      />
+      {showMobileNav ? (
+        <Backdrop
+          onHideBackdrop={hideMobileNavHandler}
+          curMobileState={showMobileNav}
+        />
+      ) : (
+        ""
+      )}
       {/* <div className={styles.hero}>
         <div className={`container`}>
           <h1>Scooter sharing made simple</h1>

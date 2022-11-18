@@ -49,7 +49,7 @@
 .left--downward__arrow {
   position: absolute;
   right: -140rem;
-  top: 30rem;
+  top: 22rem;
 
   z-index: 1;
   /* width: 100%; */
@@ -58,7 +58,6 @@
 .last-left--downward__arrow {
   position: absolute;
   right: -174rem;
-  top: 8rem;
 }
 
 .feature--icons span.left--upward__arrow {
@@ -126,7 +125,7 @@
   }
 
   .last-left--downward__arrow {
-    right: -125rem;
+    right: -110rem;
   }
 
   .right--downward__arrow {
@@ -159,5 +158,10 @@
   .feature:nth-of-type(even) .circle {
     position: absolute;
     visibility: hidden;
+  }
+
+  .feature--icons span.left--upward__arrow {
+    right: -93rem;
+    top: 15rem;
   }
 }

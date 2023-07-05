@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Scoot
 
-## Getting Started
+Welcome to Scoot, a website that showcases the services offered by the company named Scoot. With Scoot, users can explore the various services provided by the company, find their location, access frequently asked questions (FAQs), and get in touch through the contact page.
 
-First, run the development server:
+## Usage
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Scoot is designed to provide users with a seamless experience when exploring the services offered by the company. The website offers an intuitive interface where users can navigate through different sections to find the information they need. It serves as a one-stop platform to learn about Scoot's services, their location, FAQs, and contact details.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To access Scoot and explore its features, follow these steps:
+1. Clone the repository: `git clone https://github.com/your-username/scoot.git`
+2. Open the `index.html` file in your preferred web browser.
+3. Browse through the different sections of the website to discover Scoot's services, location, FAQs, and contact information.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Data Sources
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The information and images displayed on the Scoot website were sourced from Frontend Mentor. We express our gratitude to Frontend Mentor for providing the inspiration and visual assets that enhance the design and functionality of our website.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Acknowledgments
 
-## Learn More
+We would like to acknowledge the following resources and communities that have contributed to the development of the Scoot website:
+- [Stack Overflow](https://stackoverflow.com/): An invaluable resource for finding solutions to programming questions and challenges.
+- [MDN Web Docs](https://developer.mozilla.org/): A comprehensive web development reference that has been instrumental in our coding journey.
 
-To learn more about Next.js, take a look at the following resources:
+We sincerely appreciate the support and guidance from these communities and individuals, which have played a crucial role in the creation of the Scoot website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -7,7 +7,7 @@ Welcome to Scoot, a website that showcases the services offered by the company n
 Scoot is designed to provide users with a seamless experience when exploring the services offered by the company. The website offers an intuitive interface where users can navigate through different sections to find the information they need. It serves as a one-stop platform to learn about Scoot's services, their location, FAQs, and contact details.
 
 To access Scoot and explore its features, follow these steps:
-1. Clone the repository: `git clone https://github.com/your-username/scoot.git`
+1. Clone the repository: `git clone https://github.com/obatomi01/scoot.git`
 2. Open the `index.html` file in your preferred web browser.
 3. Browse through the different sections of the website to discover Scoot's services, location, FAQs, and contact information.
 
